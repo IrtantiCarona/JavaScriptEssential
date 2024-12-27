@@ -44,3 +44,9 @@ switch (userType){
 }
 
 console.log("User Category:", userCategory)
+
+let isAuthenticated = true;
+let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
+
+// Kode diatas adalah ternary operator, singkatnya ternary operation merupakan versi lebih singkat dari if else statement
+console.log("Authentication Status:", authenticationStatus);
