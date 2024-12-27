@@ -10,3 +10,18 @@ if(userRole === "admin"){
 };
 
 console.log("Access Level:", accessLevel);
+
+let isLoggedIn = true;
+let userMessage;
+
+if(isLoggedIn){
+    if(userRole === "admin"){
+        userMessage = "Welcome, Admin!";
+    } else{
+        userMessage = "Welcome, User!";
+    }
+}else{
+    userMessage = "Please Log in to access the system";
+};
+
+console.log("User Message:", userMessage);
