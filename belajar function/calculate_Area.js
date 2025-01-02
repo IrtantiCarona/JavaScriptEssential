@@ -9,6 +9,7 @@ function calculateArea(){
         document.getElementById('result').innerText = "Error: Please enter valid number for both length and width";
         return;
     }
+    
     let area = length * width;
     document.getElementById('result').innerText = `The area of the rectangle is: ${area}`; 
 }
